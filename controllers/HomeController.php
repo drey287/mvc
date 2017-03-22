@@ -14,6 +14,7 @@ class HomeController extends Controller {
         	'var1' => 'ceva',
         	'var2' => 'valoare',
 		));
+        
 		$user = new User();
 		$user->getUserId();
 		

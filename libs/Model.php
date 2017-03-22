@@ -21,5 +21,14 @@ class Model
 		
 		$db = new Database();
 		$db->query($query);
+		
+		$className = get_called_class ();
+		
+		
+		
+		//trebuie sa vezi din ce classa ai facut requestu
+		//creaza o instanta nou cu clasa respectiva
+		//si populeaz-o cu datele extrase din db     $object->table_name = 'value frum db'
+		
 	}
 }
