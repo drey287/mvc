@@ -12,5 +12,3 @@ echo $var2.'<br>';
 
 
 
-
-echo "vsdfvsdfvsasrgsrergedfvsdfvsdfvsdfv";

@@ -13,5 +13,6 @@ class Post extends Model
 	public function getPostId()
 	{
 		$this->getTableName();
+		$this->getByPk(2);
 	}
 }

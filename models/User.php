@@ -14,6 +14,7 @@ class User extends Model
 	public function getUserId()
 	{
 		$this->getTableName();
+		$this->getByPk(1);
 	}
 
 }

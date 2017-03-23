@@ -14,11 +14,17 @@ class HomeController extends Controller {
         	'var1' => 'ceva',
         	'var2' => 'valoare',
 		));
-        
-		$user = new User();
-		$user->getUserId();
 		
-		$post = new Post();
-		$post->getPostId();
+        $post = Post::model()->getByPk(3);
+//		$post->delete();
+		
+		$user = User::model()->getByPk(1);
+//		$user->delete();
+		$user->getAll();
+		
+//		var_dump($post);
+//		var_dump($user);
+		
+		
     }
 }

@@ -11,7 +11,7 @@ $url = Utils::separateURL($r);
 $controller = Utils::checkController($url[0]);
 if (!$controller){
     echo "Sorry controller not found";
-    die();
+    die;
 }
 
  if(!Utils::doAction($controller,$url[1])){
